@@ -1,0 +1,27 @@
+{
+  "name": "discord-voice-selfbot",
+  "version": "1.0.0",
+  "description": "بوت صوتي متطور للبقاء في الرومات الصوتية",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node --expose-gc --max-old-space-size=512 bot.js",
+    "dev": "node --expose-gc bot.js",
+    "basic": "node bot.js"
+  },
+  "keywords": [
+    "discord",
+    "voice",
+    "selfbot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "debug": "^4.4.3",
+    "discord.js-selfbot-v13": "^3.7.1",
+    "dotenv": "^17.4.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
